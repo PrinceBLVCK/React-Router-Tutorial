@@ -69,3 +69,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Getting Started with React Router
+
+In this tutorial we used react router v6.8.1
+
+### 'To install react-router into your project run: `npm install react-router-dom@6`'
+
+##### To Learn More about React Router
+Visit `https://reactrouter.com/` 
