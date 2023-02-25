@@ -1,6 +1,11 @@
+import { useParams } from "react-router"
 
 const UserDetails = () =>{
-    return(<>user Details Page</>)
+
+    const params = useParams()
+    const userId = params.userId
+
+    return(<>user {userId} Details Page</>)
 }
 
 export default UserDetails
