@@ -78,4 +78,4 @@ In this tutorial we used react router v6.8.1
 ##### To install react-router into your project run: `npm install react-router-dom@6`
 
 ### To Learn More about React Router
-Visit: [https://reactrouter.com/en/main](https://reactrouter.com/)
+Visit: [https://reactrouter.com](https://reactrouter.com/en/main)
