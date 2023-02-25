@@ -14,7 +14,7 @@ code {
 
 
 nav {
-  background-color: rgb(71, 125, 225);
+  background-color: rgb(96, 145, 237);
   padding: 20px;
   
 }
@@ -22,7 +22,7 @@ nav {
 nav a{
   margin: 0 10px;
   padding: 10px;
-  color: #1781f3;
+  color: #0070e7;
   font-size: 16px;
   text-decoration: none;
   border: 1px white solid;
