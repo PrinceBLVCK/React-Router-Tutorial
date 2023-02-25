@@ -10,6 +10,9 @@ import Products from "./components/Products";
 import Featured from "./components/featured";
 import New from "./components/new-products";
 import All from "./components/all-products";
+import Users from "./components/users";
+import UserDetails from "./components/user-details";
+import Admin from "./components/admin";
 
 const App = () => {
   return (
@@ -22,7 +25,11 @@ const App = () => {
         <Route path="featured" element={<Featured />}/>
         <Route path="new" element={<New />} />
       </Route>
-
+      <Route path="/users" element={<Users/>}>
+        <Route path=":userId" element={<UserDetails />} />
+        <Route path="admin" element={<Admin />} />
+      </Route>
+      
 
       <Route path="*" element={<NoMatch/>}/>
     </Routes>
