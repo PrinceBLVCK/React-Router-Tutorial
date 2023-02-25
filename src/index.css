@@ -28,3 +28,16 @@ nav a{
   border: 1px white solid;
   border-radius: 5px;
 }
+
+.homeDiv{
+  padding: 10px;
+  align-items: center;
+}
+
+.homeDiv h1{
+  text-align: center;
+}
+
+.orderDiv{
+  padding: 10px;
+}
