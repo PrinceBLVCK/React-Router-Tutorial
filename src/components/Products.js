@@ -2,7 +2,6 @@ import {
     Link,
     Outlet
 } from "react-router-dom"
-import { valid } from "semver"
 
 const Products = () => {
     const Styles = {

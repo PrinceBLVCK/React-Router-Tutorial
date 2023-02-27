@@ -7,7 +7,7 @@ const Home = () => {
         <div className="mainDiv homeDiv">
             <h1>Home Page</h1>
 
-            <button onClick={ () => navigate('/order-summary')}>Place Order</button>
+            <button data-testid='orderBtn' onClick={ () => navigate('/order-summary')}>Place Order</button>
         </div>
     )
 }

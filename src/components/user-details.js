@@ -5,7 +5,7 @@ const UserDetails = () =>{
     const params = useParams()
     const userId = params.userId
 
-    return(<>user {userId} Details Page</>)
+    return(<p>user {userId} Details Page</p>)
 }
 
 export default UserDetails

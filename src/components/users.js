@@ -16,8 +16,8 @@ const Users = () =>{
             <Outlet />
 
             <div>
-                <button onClick={() => setSearchParams({filter: 'active'})}>Active Users</button> 
-                <button onClick={() => setSearchParams({})}>Reset Filter</button>
+                <button data-testid='activeBtn' onClick={() => setSearchParams({filter: 'active'})}>Active Users</button> 
+                <button data-testid='restBtn' onClick={() => setSearchParams({})}>Reset Filter</button>
 
                 {showActiveUsers ? ( <h5>showing Active Users</h5> ) : ( <h5>showing All Users</h5> )}
 
